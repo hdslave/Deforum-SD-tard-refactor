@@ -1,4 +1,4 @@
-name: ldm
+name: deforum-local-3D
 channels:
   - pytorch
   - defaults
