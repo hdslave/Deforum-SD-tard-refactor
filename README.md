@@ -22,4 +22,4 @@ git clone https://github.com/isl-org/MiDaS.git
 
 git clone https://github.com/MSFTserver/pytorch3d-lite.git
 
-download sd-v1-4.ckpt & dpt_large-midas.ckpt files and put them in content/models  directory
+download sd-v1-4.ckpt & dpt_large-midas.pt files and put them in content/models  directory
