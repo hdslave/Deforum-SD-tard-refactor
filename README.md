@@ -23,3 +23,7 @@ git clone https://github.com/isl-org/MiDaS.git
 git clone https://github.com/MSFTserver/pytorch3d-lite.git
 
 download sd-v1-4.ckpt & dpt_large-midas.pt files and put them in content/models  directory
+
+edit Deforum_Stable_Diffusion.py to your taste, search for the differnt parameters from the cells of the colab notebook
+
+python3 Deforum_Stable_Diffusion.py
