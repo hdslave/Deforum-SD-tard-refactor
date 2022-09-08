@@ -1,3 +1,10 @@
+open terminal - ctrl alt T
+git clone this fork
+cd to downloaded directory
+conda env create -f environment.yaml 
+
+
+
 
 [![Deforum Stable Diffusion](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=deforum_sd_repo)
