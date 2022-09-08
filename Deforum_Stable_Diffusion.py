@@ -744,8 +744,8 @@ if load_on_run_all and ckpt_valid:
 def DeforumAnimArgs():
 
     #@markdown ####**Animation:**
-    animation_mode = 'None' #@param ['None', '2D', '3D', 'Video Input', 'Interpolation'] {type:'string'}
-    max_frames = 1000 #@param {type:"number"}
+    animation_mode = '3D' #@param ['None', '2D', '3D', 'Video Input', 'Interpolation'] {type:'string'}
+    max_frames = 10 #@param {type:"number"}
     border = 'wrap' #@param ['wrap', 'replicate'] {type:'string'}
 
     #@markdown ####**Motion Parameters:**
@@ -859,9 +859,9 @@ prompts = [
 
 animation_prompts = {
     0: "a beautiful apple, trending on Artstation",
-    20: "a beautiful banana, trending on Artstation",
-    30: "a beautiful coconut, trending on Artstation",
-    40: "a beautiful durian, trending on Artstation",
+    2: "a beautiful banana, trending on Artstation",
+    4: "a beautiful coconut, trending on Artstation",
+    8: "a beautiful durian, trending on Artstation",
 }
 
 # %%
