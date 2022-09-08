@@ -1,4 +1,4 @@
-name: deforum-local-3D
+name: d3d
 channels:
   - pytorch
   - defaults
