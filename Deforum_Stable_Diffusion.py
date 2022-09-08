@@ -36,8 +36,8 @@ print(sub_p_res)
 # ask for the link
 print("Local Path Variables:\n")
 
-models_path = "/content/models" #@param {type:"string"}
-output_path = "/content/output" #@param {type:"string"}
+models_path = "content/models" #@param {type:"string"}
+output_path = "content/output" #@param {type:"string"}
 
 #@markdown **Google Drive Path Variables (Optional)**
 mount_google_drive = False #@param {type:"boolean"}
